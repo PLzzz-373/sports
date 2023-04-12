@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="Omnifood is an AI-powered food subscription that will make you eat healthy again, 365 days per year. It's tailored to your personal tastes and nutritional needs."
+    />
+
+    <!-- Always include this line of code!!! -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" href="img/favicon.png" />
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+    <!-- <script defer src="js/script.js"></script> -->
+
+    <title>Omnifood &mdash; Never cook again!</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#">
+        <img
+          class="logo"
+          alt="Omnifood logo"
+          src="img/logo.png"
+          style="height: 80px"
+        />
+      </a>
+
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="#meals">搭配方案</a></li>
+          <li><a class="main-nav-link nav-cta" href="#cta">立即购买</a></li>
+        </ul>
+      </nav>
+
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+
+    <main>
+      <section class="section-hero">
+        <div class="hero">
+          <div class="hero-text-box">
+            <h1 class="heading-primary">"运动,使我们重获新生,KEEP MOVING"</h1>
+            <p class="hero-description">
+              The smart 365-days-per-year exercise that will make you eat
+              healthy again. Tailored to your personal tastes and nutritional
+              needs.
+            </p>
+            <a href="#cta" class="btn btn--full margin-right-sm">立即开始</a>
+
+            <a href="#how" class="btn btn--outline">探索更多 &darr;</a>
+            <div class="delivered-meals">
+              <p class="delivered-text"><span>250,000+</span> 运动者的选择！</p>
+            </div>
+          </div>
+          <div
+            class="hero-img-box"
+            style="background-color: rgb(253, 242, 233)"
+          >
+            <picture>
+              <img src="img/2.png" class="hero-img" />
+            </picture>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-meals" id="meals">
+        <div class="container center-text">
+          <span class="subheading">体育装备随心搭</span>
+          <h2 class="heading-secondary">体育用具OR体育服装助你运动更舒心</h2>
+        </div>
+
+        <div class="container grid grid--3-cols margin-bottom-md">
+          <div class="meal">
+            <img src="img/sport.jpg" class="meal-img" alt="Japanese Gyozas" />
+            <div class="meal-content">
+              <div class="meal-tags">
+                <span class="tag tag--vegetarian">器械用品</span>
+              </div>
+              <p class="meal-title">品牌正版</p>
+              <ul class="meal-attributes">
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                  <span><strong>1w+</strong> 月销</span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                  <span><strong>4.9</strong> 评分 (537)</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="meal">
+            <img src="img/clo.jpg" class="meal-img" alt="Avocado Salad" />
+            <div class="meal-content">
+              <div class="meal-tags">
+                <span class="tag tag--vegan">运动服装</span>
+                <span class="tag tag--paleo">多种款式</span>
+              </div>
+              <p class="meal-title">Avocado Salad</p>
+              <ul class="meal-attributes">
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                  <span><strong>1w+</strong> 月销</span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                  <span><strong>4.8</strong> 评分 (441)</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="diets">
+            <h3 class="heading-tertiary">NUIST体育用品优选:</h3>
+            <ul class="list">
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>服装轻便透气</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>多种运动品牌供应</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>优惠折扣力度大</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>器材用品种类齐全</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>售后服务贴心全面</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>质量保证</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>具有青春动感</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>更多元的选择</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>随心搭配</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="container all-recipes">
+          <a href="#" class="link">查看更多 &rarr;</a>
+        </div>
+      </section>
+
+      <section class="section-cta" id="cta">
+        <div class="container">
+          <div class="cta">
+            <div class="cta-text-box">
+              <h2 class="heading-secondary">购买你的体育用品!</h2>
+              <p class="cta-text">填写有关你的个人信息，这将作为登陆必备</p>
+
+              <form class="cta-form" name="sign-up" netlify>
+                <div>
+                  <label for="full-name">姓名</label>
+                  <input
+                    id="full-name"
+                    type="text"
+                    placeholder="张三"
+                    name="full-name"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <label for="email">电子邮箱</label>
+                  <input
+                    id="email"
+                    type="email"
+                    placeholder="XXX@xxx.com"
+                    name="email"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <label for="select-where">你从哪里了解到我们</label>
+                  <select id="select-where" name="select-where" required>
+                    <option value="">请选择以下选项</option>
+                    <option value="friends">朋友推荐</option>
+                    <option value="youtube">B站视频</option>
+                    <option value="podcast">贴吧</option>
+                    <option value="ad">各种广告</option>
+                    <option value="others">其他</option>
+                  </select>
+                </div>
+                <button
+                  class="btn btn--form"
+                  onclick="window.location.href = 'https://www.baidu.com/'"
+                >
+                  立即登陆！
+                </button>
+
+                <!-- <input type="checkbox" />
+                <input type="number" /> -->
+              </form>
+            </div>
+            <div
+              class="cta-img-box"
+              role="img"
+              aria-label="Woman enjoying food"
+            ></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container grid grid--footer">
+        <div class="address-col">
+          <p class="footer-heading">联系我们</p>
+          <address class="contacts">
+            <p class="address">XXXXXXX NUIST in Nanjing province</p>
+            <p>
+              <a class="footer-link" href="tel:415-201-6370">XX热线:54462xxx</a
+              ><br />
+              <a class="footer-link" href="mailto:2734093367@qq.com"
+                >2734093367@qq.com</a
+              >
+            </p>
+          </address>
+        </div>
+
+        <nav class="nav-col">
+          <p class="footer-heading">关于我们</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">博客地址</a></li>
+            <li><a class="footer-link" href="#">隐私性+安全性</a></li>
+            <li><a class="footer-link" href="#">官方商城</a></li>
+            <li><a class="footer-link" href="#">可持续发展</a></li>
+          </ul>
+        </nav>
+
+        <nav class="nav-col">
+          <p class="footer-heading">赞助</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">成为赞助者</a></li>
+            <li><a class="footer-link" href="#">新闻中心</a></li>
+            <li><a class="footer-link" href="#">专属文档</a></li>
+          </ul>
+        </nav>
+
+        <nav class="nav-col">
+          <p class="footer-heading">招聘</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">使用条款 </a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
